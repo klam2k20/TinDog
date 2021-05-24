@@ -34,10 +34,18 @@ p {
 .col-feature {
     text-align: center;
     padding: 5%;
-
 }
+
+.col-img {
+    position: relative;
+}
+
+.col-pricing {
+    padding: 2%;
+}
+
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -66,10 +74,12 @@ p {
     margin: 5% 3% 5% 0;
 }
 
-/* Images */
-.title-image {
-    width: 65%;
+.img-title {
+    width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+    
 }
 
 .img-feature {
@@ -92,12 +102,17 @@ p {
     margin: 20px 20px 50px;     
 }
 
+
+
 #title {
     background-color: #ff4c68;
+
 }
 
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 #testimonials {
@@ -110,6 +125,9 @@ p {
     background-color: #ef8172;
     text-align: center;
     padding-bottom: 3%;
-
 }
- 
+
+#pricing {
+    padding: 7% 15%;
+    text-align: center;
+}
